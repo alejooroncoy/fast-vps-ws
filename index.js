@@ -55,3 +55,5 @@ wss.on("connection", function connection(ws) {
 
   console.log("Enviando mensajes a los clientes");
 });
+
+console.log("Servidor WebSocket iniciado en el puerto 8080");
